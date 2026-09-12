@@ -1,16 +1,19 @@
 print("Hello there, fellow programmer!")
 name = input("What is your name? ")
 print(f"Nice to meet you, {name}. Welcome to the Launch Console!")
- 
-print("Pick one of the following options to learn about me: ")
-print("1. About Me")
-print("2. My Goals")
-print("3. Education")
-print("4. Exit")
-choice = input('')
+
+
 
 program = True
 while program:
+  print("Pick one of the following options to learn about me: ")
+  print("1. About Me")
+  print("2. My Goals")
+  print("3. Education")
+  print("4. Exit")
+  choice = input('')
+
+
   if choice == "1":
     print("My name is Kevin. I am a 15 (almost 16) year old senior from Greensboro, NC.")
   elif choice == "2":
